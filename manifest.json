@@ -1,0 +1,30 @@
+{
+  "app": "PokeRarity",
+  "version": "0.2.3",
+  "platform": "Windows",
+  "python": "3.12",
+  "languages": ["English", "Japanese"],
+  "ocr_engine": "RapidOCR/OpenCV",
+  "lookup_engine": "PokeScan parser and matching pipeline with local-first SQLite lookup",
+  "local_database": {
+    "format": "SQLite",
+    "source": "TCGdex cards-database GitHub repository",
+    "automatic_check": "on app launch",
+    "manual_update_button": true,
+    "timestamps": ["last_checked_at", "last_updated_at"]
+  },
+  "features": [
+    "image upload",
+    "interactive crop",
+    "local OCR",
+    "scan cancellation",
+    "English/Japanese card identification",
+    "local-first card matching",
+    "candidate selection",
+    "card image display",
+    "rarity guide",
+    "ENG/JAP rarity symbol display",
+    "automatic database update check",
+    "manual database update"
+  ]
+}
