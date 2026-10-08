@@ -24,7 +24,20 @@ PokeRarity is a Windows desktop app for identifying Pokémon cards from a photo.
 - Clickable rarity-reference guide
 - Optional PyInstaller Windows build
 
-## Quick start
+## Quick start — Windows EXE (recommended)
+
+1. Open the [v0.2.3 release page](https://github.com/ATOMNFT/PokeRarity/releases/tag/v0.2.3).
+2. Download [PokeRarity-Windows-v0.2.3-EXE.zip](https://github.com/ATOMNFT/PokeRarity/releases/download/v0.2.3/PokeRarity-Windows-v0.2.3-EXE.zip) under **Assets**.
+3. Right-click the downloaded ZIP and choose **Extract All**. Extract it to a normal folder.
+4. Open the extracted folder and double-click `PokeRarity.exe` (open the `PokeRarity` subfolder first if present).
+
+Keep all extracted files and folders together. Do not run the EXE inside the ZIP or move it away from its bundled files.
+
+No Python installation or `setup.bat` is required for the EXE build. GitHub's **Source code (zip)** and **Source code (tar.gz)** downloads are for the source installation below.
+
+## Source installation — Python
+
+Use this option if you want to run or modify the Python source.
 
 ### 1. Download
 
